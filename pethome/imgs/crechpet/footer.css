@@ -1,0 +1,48 @@
+footer{
+    background-color: rgb(187, 125,10);/* cor dde fundo do footer*/
+    color: aliceblue;/* Cor do texto branca*/
+    text-align: center;/* Texto alinhado no centro*/
+    margin-top: auto;/* Garante que o footer fique no fim da pagina*/
+}
+.social-media-buttons{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+
+
+    
+}
+.footer-content{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.footer-content nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+
+#copyrigth{
+    color: black;
+    font-weight: 500;
+    display: flex;
+    
+}
+@media screen and(max-width:600px){
+    #footer-items{
+        flex-direction: column;
+    }
+}
