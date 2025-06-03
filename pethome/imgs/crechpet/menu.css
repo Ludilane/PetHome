@@ -6,6 +6,7 @@
     justify-content: center;
 }
 #serviços{
+    justify-content: space-between;
     width: 100%;
     display: flex;
     justify-content: center;

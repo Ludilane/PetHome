@@ -50,14 +50,13 @@
 }
 #banner img{/* referente a foto pets*/
     width: fit-content;
-    height: 50%;
+    height: 70%;
 
 }
 .shape{/* referente a moldura atras da foto pets 'banner img'*/
     background-color: rgb(187, 125,10);
-    width: 50%;
-border-radius: 40%;
-    50% 50% 0% 0%;
+    width: 48%;
+    border-radius:  40% 50% 50% 40%;/* Modifica a forma que fica atrás da imagem */
     height: 100%;
     position: absolute;
     top: 0;
